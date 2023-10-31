@@ -1,0 +1,605 @@
+#back-to-top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none; /* Masquez le bouton au début */
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+  }
+  
+
+.col-lg-5{
+  background: rgb(243, 242, 242);
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  margin: 8% auto;
+  padding: 30px;
+  width: 450px;
+
+}
+
+.edu-btn{
+  padding: 10px;
+  margin-top: 50px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background: rgb(32, 179, 32);
+}
+
+a{
+  color: rgb(32, 179, 32);
+  text-decoration: none;  
+
+}
+#remember-me #terms-condition{
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
+
+#terms-condition{
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+
+  background-color: #f8f8f8; /* Remplacez par la couleur de fond que vous souhaitez */
+  padding: 20px;
+  text-align: center; /* Pour centrer le contenu du footer horizontalement */
+}
+
+/* Cacher la barre de défilement par défaut */
+body {
+  overflow: hidden;
+}
+
+/* Afficher la barre de défilement lors du survol */
+body:hover {
+  overflow: auto;
+}
+
+/* Transition en douceur au survol de la barre de défilement */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  transition: background 1s;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Largeur de la barre de défilement */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Coins arrondis de la barre de défilement */
+::-webkit-scrollbar {
+  border-radius: 30px;
+}
+
+/* Barre de défilement */
+::-webkit-scrollbar {
+  width: 12px; /* Largeur de la barre de défilement */
+}
+
+/* Couleur de fond de la barre de défilement */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Couleur de la barre de défilement */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Au survol de la barre de défilement */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.bi {
+  filter: brightness(0) invert(1);
+}
+
+
+
+
+#search-bar {
+  background-color: #f0f0f0; /* Couleur de fond de l'input */
+  border: 1px solid #ccc;   /* Bordure de l'input */
+  border-radius: 4px;       /* Coins arrondis */
+  padding: 8px;             /* Marge intérieure */
+  width: 200px;             /* Largeur de l'input */
+  transition: all 0.3s;     /* Transition fluide */
+}
+
+#search-bar:focus {
+  width: 250px;             /* Largeur lorsque l'input est en focus */
+  border-color: #007bff;    /* Couleur de la bordure en focus */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.login-form-box .form-group {
+  position: relative;
+}
+
+.login-form-box .title {
+  margin-bottom: 10px;
+}
+.login-form-box .password-reset a {
+  color:  rgb(32, 179, 32);
+  
+}
+.login-form-box a:hover .password-reset:hover {
+  color: rgb(21, 79, 239);
+}
+.password-reset:hover{
+  color: rgb(21, 79, 239);
+}
+.login-form-box p {
+  color: var(--color-heading);
+  margin-bottom: 25px;
+}
+.login-form-box .form-group {
+  position: relative;
+}
+.login-form-box .form-group input {
+  border: 1px solid rgb(223, 220, 220);
+  height: 50px;
+}
+.login-form-box .form-group .edu-btn {
+  width: 100%;
+}
+.login-form-box .form-group .password-show {
+  position: absolute;
+  bottom: 11px;
+  right: 18px;
+  color: #b2b2b2;
+  font-size: 13px;
+  cursor: pointer;
+  -webkit-transition: ease-in-out 3s;
+  transition: ease-in-out 3s;
+}
+.login-form-box .form-group .password-show:hover {
+  color: var(--color-primary);
+}
+.login-form-box .chekbox-area {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 25px 0;
+}
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  appearance: button;
+}
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+input [type="button"] {
+  height: 60px;
+}
+
+input [type="checkbox"] {
+  height: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+input[type="tel"],
+textarea {
+  background-color: rgb(247, 240, 240);
+  box-shadow: none;
+  padding: 13px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus {
+  border-color: gray;
+}
+
+input[type="checkbox"] ~ label::after,
+input[type="radio"] ~ label::after {
+  content: "\e913";
+  font-family: var(--font-icomoon);
+  font-size: 10px;
+  color: var(--color-white);
+  position: absolute;
+  top: 0;
+  left: 4px;
+  opacity: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+input[type="radio"]:checked ~ label::before {
+  background-color: var(--color-white);
+  border-color: #dcdfe0;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+.form-group:last-child {
+  margin-bottom: 0;
+}
+.form-group label {
+  color: var(--color-heading);
+  margin-bottom: 8px;
+}
+.form-group .submit-btn {
+  padding: 0 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Styles pour les colonnes */
+.footer-columns {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-column {
+  flex: 1;
+  text-align: center;
+}
+
+.copyright {
+  margin-bottom: 1rem; /* Espacement en bas pour la première colonne */
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Masquer le footer complet par défaut */
+#show-full-footer-btn {
+  display: none;
+}
+
+/* Styles pour le footer complet */
+.full-footer {
+  display: block;
+}
+
+
+
+/* Médias queries pour afficher en colonnes sur les petits écrans */
+@media (max-width: 950px) {
+  .footer-columns {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .footer-column {
+      width: 100%;
+      margin-bottom: 1rem;
+  }
+
+  #show-full-footer-btn {
+      display: block;
+  }
+
+  .full-footer {
+      display: none;
+  }
+}
+
+
+
+
+/* Styles Bootstrap partie contactez moi */
+.contact-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+/* Styles personnalisés */
+h1 {
+  text-align: center;
+}
+
+textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.8s;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Styles responsifs */
+@media (max-width: 768px) {
+  .container-container {
+      padding: 10px;
+  }
+}
+
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.search-icon {
+  cursor: pointer;
+}
+
+.search-dropdown {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+
+.search-input {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+.search-button {
+  background-color: wheat;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #f0a500;
+}
+
+
+
+
+
+
+/* 
+
+.lds-ellipsis {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+.lds-ellipsis div {
+  position: absolute;
+  top: 33px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: #fff;
+  animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+
+.lds-ellipsis div:nth-child(1) {
+  left: 8px;
+  animation: lds-ellipsis1 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(2) {
+  left: 8px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(3) {
+  left: 32px;
+  animation: lds-ellipsis2 0.6s infinite;
+}
+
+.lds-ellipsis div:nth-child(4) {
+  left: 56px;
+  animation: lds-ellipsis3 0.6s infinite;
+}
+
+@keyframes lds-ellipsis1 {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes lds-ellipsis3 {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(0);
+  }
+}
+
+@keyframes lds-ellipsis2 {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  100% {
+    transform: translate(24px, 0);
+  }
+} */
+/* Styles pour l'animation de chargement */
+.loader-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.loader {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #3498db;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Styles pour la topbar */
+.topbar {
+  background: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo img {
+  width: 100px;
+  height: 100px;
+}
+
+.user {
+  text-align: right;
+}
+
+.user a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+/* Styles pour la sidebar et le contenu restent les mêmes */
+.sidebar {
+  width: 250px;
+  background: #333;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+/* Styles pour le contenu principal */
+.content {
+  margin-left: 250px;
+  padding: 20px;
+}
+
+/* Médias pour gérer la responsivité (exemple) */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100px;
+  }
+
+  .content {
+    margin-left: 100px;
+  }
+}

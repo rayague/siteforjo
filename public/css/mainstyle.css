@@ -1,0 +1,14 @@
+/* Styles pour l'effet glassmorphique sombre */
+.bg-glass {
+    background-color: rgba(0, 0, 0, 0.7); 
+    backdrop-filter: blur(10px); 
+}
+
+/* Styles pour les liens du footer */
+.link-body-emphasis {
+    color: #fff; /* Couleur du texte du logo */
+}
+
+.link-body-emphasis:hover {
+    text-decoration: none; /* Supprime le soulignement au survol */
+}
